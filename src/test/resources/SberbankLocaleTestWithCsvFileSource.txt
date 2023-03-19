@@ -1,0 +1,14 @@
+0) TEST DATA: [
+                  ["selenide",  "selenide/selenide"]
+                  ["qa guru", "daramirra/qaGuruDiploma"]
+                  ]
+1) TITLE: В поисковой выдаче на Github по запросу TEST_DATA1 первым отображается результат TEST_DATA2
+2) PRIORITY / SEVERITY: MAJOR
+3) PRECONDITIONS:
+- Открыть браузер Chrome
+- Открыть главную страницу Github https://github.com/
+4) STEPS:
+- В поле поиска ввести TEST_DATA
+- Нажать Enter
+5) EXPECTED RESULT:
+- В поисковой выдаче первым отображается результат TEST_DATA2

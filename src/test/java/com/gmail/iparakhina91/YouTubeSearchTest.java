@@ -12,8 +12,7 @@ public class YouTubeSearchTest {
     @Test
     void searchStandUpOnYouTube() {
         Selenide.open("https://www.youtube.com/");
-        $("#search-input").setValue("stand up");
-        $("#search-icon-legacy").click();
-        $$(".ytd-page-manager").shouldHave(CollectionCondition.size(6));
+        $("#search[placeholder='Введите запрос']").setValue("stand up").pressEnter();
+        $$(".ytd-page-manager").shouldHave(CollectionCondition.size(3));
     }
 }

@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9863fb94-5d84-4aa4-833a-3d9bbce7258c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/YouTubeSearchTest.txt" afterDir="false" />
+    <list default="true" id="9863fb94-5d84-4aa4-833a-3d9bbce7258c" name="Changes" comment="changed build.gradle and gitignore">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/BookingLocaleTestWithMethodSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/GitHubSearchTestWithCsvFileSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/GitHubSearchTestWithCsvSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTestWithValueSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/dataForBookingTest/Locale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/GitHubSearchTestWithCsvSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SberbankLocaleTestWithCsvFileSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataForGitHubResearchTest/searchResultsOnGitHub.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/YouTubeSearchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/YouTubeSearchTestWithValueSource.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +28,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -51,11 +62,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Irina/IdeaProjects/example_HW_JUnit/src/test/resources"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="YouTubeSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gmail.iparakhina91" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Irina\IdeaProjects\example_HW_JUnit\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gmail.iparakhina91" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BookingLocaleTestWithMethodSource">
+    <configuration name="BookingLocaleTestWithMethodSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -68,7 +91,99 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.gmail.iparakhina91.YouTubeSearchTest&quot;" />
+            <option value="&quot;com.gmail.iparakhina91.BookingLocaleTestWithMethodSource&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GitHubSearchTestWithCsvFileSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.gmail.iparakhina91.GitHubSearchTestWithCsvFileSource&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SberbankLocaleTestWithCsvFileSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.gmail.iparakhina91.SberbankLocaleTestWithCsvFileSource&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="YouTubeSearchTestWithCsvSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.gmail.iparakhina91.YouTubeSearchTestWithCsvSource&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.gmail.iparakhina91.test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -80,7 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.YouTubeSearchTest" />
+        <item itemvalue="Gradle.BookingLocaleTestWithMethodSource" />
+        <item itemvalue="Gradle.test" />
+        <item itemvalue="Gradle.SberbankLocaleTestWithCsvFileSource" />
+        <item itemvalue="Gradle.GitHubSearchTestWithCsvFileSource" />
+        <item itemvalue="Gradle.YouTubeSearchTestWithCsvSource" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +212,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679244503298</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed build.gradle and gitignore">
+      <created>1679245908869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679245908869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed build.gradle and gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed build.gradle and gitignore" />
   </component>
 </project>

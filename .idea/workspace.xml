@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9863fb94-5d84-4aa4-833a-3d9bbce7258c" name="Changes" comment="added tests">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/BookingLocaleTestWithMethodSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/VkontakteLocaleTestWithMethodSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTestWithValueSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTestWithValueSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/dataForBookingTest/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/dataForBookingTest/Locale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SberbankLocaleTestWithCsvFileSource.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/VkontakteLocaleTestWithCsvFileSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679260198597</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added tests">
+      <created>1679428589926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679428589926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9863fb94-5d84-4aa4-833a-3d9bbce7258c" name="Changes" comment="added tests">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTestWithValueSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/iparakhina91/YouTubeSearchTestWithValueSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Irina/IdeaProjects/example_HW_JUnit"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Irina/IdeaProjects/example_HW_JUnit&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gmail.iparakhina91" />
@@ -67,7 +67,7 @@
       <recent name="com.gmail.iparakhina91" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.VkontakteLocaleTestWithMethodSource">
+  <component name="RunManager" selected="Gradle.YouTubeSearchTestWithValueSource">
     <configuration name="BookingLocaleTestWithMethodSource" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,10 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.VkontakteLocaleTestWithMethodSource" />
-        <item itemvalue="Gradle.GitHubSearchTestWithCsvFileSource" />
-        <item itemvalue="Gradle.GitHubSearchTestWithCsvSource" />
         <item itemvalue="Gradle.YouTubeSearchTestWithValueSource" />
+        <item itemvalue="Gradle.VkontakteLocaleTestWithMethodSource" />
+        <item itemvalue="Gradle.GitHubSearchTestWithCsvSource" />
+        <item itemvalue="Gradle.GitHubSearchTestWithCsvFileSource" />
         <item itemvalue="Gradle.BookingLocaleTestWithMethodSource" />
       </list>
     </recent_temporary>

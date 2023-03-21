@@ -1,5 +1,5 @@
 0) TEST DATA: ["stand up", "qa guru"]
-1) TITLE: В поисковой выдаче YouTube по запросу TEST_DATA отображается 2 результата
+1) TITLE: В поисковой выдаче YouTube по запросу TEST_DATA отображается 3 результата
 2) PRIORITY / SEVERITY: MAJOR
 3) PRECONDITIONS:
 - Открыть браузер Chrome
@@ -8,4 +8,4 @@
 - В поле поиска ввести TEST_DATA
 - Нажать Enter
 5) EXPECTED RESULT:
-- В поисковой выдаче YouTube отображается 2 результата по запросу TEST_DATA
+- В поисковой выдаче YouTube отображается 3 результата по запросу TEST_DATA

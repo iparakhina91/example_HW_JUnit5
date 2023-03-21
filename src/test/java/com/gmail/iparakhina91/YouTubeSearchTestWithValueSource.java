@@ -20,7 +20,7 @@ public class YouTubeSearchTestWithValueSource {
     @ValueSource(strings = {
             "stand up", "qa guru"
     })
-    @ParameterizedTest(name = "В поисковой выдаче YouTube по запросу {0} должно отображаться 2 результата")
+    @ParameterizedTest(name = "В поисковой выдаче YouTube по запросу {0} должно отображаться 32 результата")
     @Tags( {
             @Tag("MAJOR"),
             @Tag("WEB")
@@ -28,6 +28,6 @@ public class YouTubeSearchTestWithValueSource {
 
     void searchResultsOnYouTube(String testData) {
         $("#search[placeholder='Введите запрос']").setValue(testData).pressEnter();
-        $$(".ytd-page-manager").shouldHave(CollectionCondition.size(2));
+        $$(".ytd-page-manager").shouldHave(CollectionCondition.size(3));
     }
 }
